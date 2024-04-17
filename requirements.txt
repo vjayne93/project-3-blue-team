@@ -1,4 +1,4 @@
-name: voila_dependencies
+name: fridge_fills_draft.ipynb
 channels:
 - conda-forge
 dependencies:
