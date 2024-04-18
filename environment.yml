@@ -1,0 +1,9 @@
+name: fridge_fills_draft.ipynb
+channels:
+- conda-forge
+dependencies:
+- matplotlib-base
+- pandas
+- ipywidgets
+- jupyterlab>=3.1
+- voila>=0.5.6
