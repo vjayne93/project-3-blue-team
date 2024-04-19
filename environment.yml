@@ -5,5 +5,7 @@ dependencies:
 - matplotlib-base
 - pandas
 - ipywidgets
+- plotly
+- plotly.express
 - jupyterlab>=3.1
 - voila>=0.5.6
