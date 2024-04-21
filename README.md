@@ -14,10 +14,10 @@ Our dataset includes every "fridge fill" in the year 2023. A "fridge fill" is th
 ![IMG_5669](https://github.com/vjayne93/project-3-blue-team/assets/152992214/3c586e3a-bc59-4f98-b290-f02d997ae32b)
 
 The five types of "fridge fills" tracked in the dataset are Rescued Groceries, Purchased Groceries, Meals, Homecooked Meals, and Food Drive. <br>
-Rescued Groceries are donated from grocery stores, larger food banks, restaurants, bakeries, and similar sources of food. <br>
-Purchased Groceries are bought by volunteers with funds donated from supporters. <br>
-Meals are made in commercial kitchens supporting organizations, such as Double Trellis Food Initiative, The People's Kitchen, Asian Food Collective, and others.<br>
+<b>Rescued Groceries</b> are donated from grocery stores, larger food banks, restaurants, bakeries, and similar sources of food. <br>
+<b>Purchased Groceries</b> are bought by volunteers with funds donated from supporters. <br>
+<b>Meals</b> are made in commercial kitchens supporting organizations, such as Double Trellis Food Initiative, The People's Kitchen, Asian Food Collective, and others.<br>
 Homemade meals are made by volunteers. <br>
-Food Drive donations come from schools, workplaces, religious organizations, events, and other groups that collect food to donate. <br>
+<b>Food Drive</b> donations come from schools, workplaces, religious organizations, events, and other groups that collect food to donate. <br>
 
 ![IMG_7905_Original](https://github.com/vjayne93/project-3-blue-team/assets/152992214/21d9122c-c59b-4cf8-9557-1b54dd5e4d0c)
