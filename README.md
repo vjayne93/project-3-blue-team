@@ -5,6 +5,8 @@ Our project analyzes data on food donation from [South Philadelphia Community Fr
 Our Jupyter Notebook contains interactive graphics that can only be viewed on Binder. Use the button to view the notebook on Binder.
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vjayne93/project-3-blue-team/HEAD?labpath=fridge_fills_draft.ipynb)
 
+To meet the requirements of the project, we have developed two versions of our Jupyter Notebook. Version 1 reads a .JSON file which was created by uploading a CSV of raw data to MongoDB, and exporting the data. Version 2 connects directly to a locally hosted MongoDB database to access the data.  
+
 ![LUHV_FILL](https://github.com/vjayne93/project-3-blue-team/assets/152992214/faa4be10-6c31-4147-a5cd-9e6e1b88a756)
 
 Our dataset includes every "fridge fill" in the year 2023. A "fridge fill" is the organization's terminology for any food donation to a fridge or pantry location. The data was tracked by volunteers who delivered and stocked food.  
