@@ -2,7 +2,8 @@
 
 Our project analyzes data on food donation from [South Philadelphia Community Fridge](https://www.southphillyfridge.com). South Philadelphia Community Fridge is an all-volunteer mutual aid organization in the South Philadelphia neighborhood that provides 24/7 no-questions-asked food aid through a network of free fridges and pantries. 
 
-Our Jupyter Notebook contains interactive graphics that can only be viewed on Binder. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vjayne93/project-3-blue-team/HEAD?labpath=fridge_fills_draft.ipynb)
+Our Jupyter Notebook contains interactive graphics that can only be viewed on Binder. Use the button below to view the full notebook on Binder.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vjayne93/project-3-blue-team/HEAD?labpath=fridge_fills_draft.ipynb)
 
 ![LUHV_FILL](https://github.com/vjayne93/project-3-blue-team/assets/152992214/faa4be10-6c31-4147-a5cd-9e6e1b88a756)
 
