@@ -9,7 +9,7 @@ To meet the requirements of the project, we have developed two versions of our J
 
 ![LUHV_FILL](https://github.com/vjayne93/project-3-blue-team/assets/152992214/faa4be10-6c31-4147-a5cd-9e6e1b88a756)
 
-Our dataset includes every "fridge fill" in the year 2023. A "fridge fill" is the organization's terminology for any food donation to a fridge or pantry location. The data was tracked by volunteers who delivered and stocked food.  
+Our dataset includes every <i>"fridge fill"</i> in the year 2023. A "fridge fill" is the organization's terminology for any food donation to a fridge or pantry location. The data was tracked by volunteers who delivered and stocked food.  
 
 ![IMG_5669](https://github.com/vjayne93/project-3-blue-team/assets/152992214/3c586e3a-bc59-4f98-b290-f02d997ae32b)
 
