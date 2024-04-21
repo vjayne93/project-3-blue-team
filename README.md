@@ -17,7 +17,7 @@ The five types of "fridge fills" tracked in the dataset are Rescued Groceries, P
 <b>Rescued Groceries</b> are donated from grocery stores, larger food banks, restaurants, bakeries, and similar sources of food. <br>
 <b>Purchased Groceries</b> are bought by volunteers with funds donated from supporters. <br>
 <b>Meals</b> are made in commercial kitchens supporting organizations, such as Double Trellis Food Initiative, The People's Kitchen, Asian Food Collective, and others.<br>
-Homemade meals are made by volunteers. <br>
+<b>Homemade Meals</b> are made by volunteers. <br>
 <b>Food Drive</b> donations come from schools, workplaces, religious organizations, events, and other groups that collect food to donate. <br>
 
 ![IMG_7905_Original](https://github.com/vjayne93/project-3-blue-team/assets/152992214/21d9122c-c59b-4cf8-9557-1b54dd5e4d0c)
