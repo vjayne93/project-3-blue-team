@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b795c278b25247c5627baae2ae1e1965 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; 
+                    top: 10px; right: 10px; width: 150px; height: 200px; 
+                    background-color: white; border-radius: 5px; z-index:9999;
+                    padding: 10px; font-size: 10px;">
+            <b>Legend</b><br>
+    <i style="background:#1f77b4; width: 10px; height: 10px; display:inline-block"></i> BOK FRIDGE & PANTRY<br><i style="background:#ff7f0e; width: 10px; height: 10px; display:inline-block"></i> DISILVESTRO PLAYGROUND FRIDGE & PANTRY<br><i style="background:#2ca02c; width: 10px; height: 10px; display:inline-block"></i> MIFFLIN SQUARE PARK PANTRY<br><i style="background:#d62728; width: 10px; height: 10px; display:inline-block"></i> CLEVELAND<br><i style="background:#9467bd; width: 10px; height: 10px; display:inline-block"></i> POINT BREEZE<br><i style="background:#8c564b; width: 10px; height: 10px; display:inline-block"></i> PEOPLE’S KITCHEN FRIDGE & PANTRY<br><i style="background:#e377c2; width: 10px; height: 10px; display:inline-block"></i> PORCO’S PHILLY PANTRY<br><i style="background:#7f7f7f; width: 10px; height: 10px; display:inline-block"></i> GROWING TOGETHER GARDEN PANTRY<br><i style="background:#bcbd22; width: 10px; height: 10px; display:inline-block"></i> LUHV FRIDGE<br></div>
+    
+            <div class="folium-map" id="map_b795c278b25247c5627baae2ae1e1965" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b795c278b25247c5627baae2ae1e1965 = L.map(
+                "map_b795c278b25247c5627baae2ae1e1965",
+                {
+                    center: [39.9526, -75.1652],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e6fd9426ac812c834545308daebb2333 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e6fd9426ac812c834545308daebb2333.addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+            var circle_marker_9f75945e27ce69c9fbe744e51d5b3f21 = L.circleMarker(
+                [39.9257126, -75.1656558],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 44.31703961232068, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_9ec22495fd3ebec377675dd39b476987 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85b65c05c3dec33370545f805eb0b46c = $(`<div id="html_85b65c05c3dec33370545f805eb0b46c" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> BOK FRIDGE & PANTRY<br><b>Donations:</b> 491</div></div>`)[0];
+                popup_9ec22495fd3ebec377675dd39b476987.setContent(html_85b65c05c3dec33370545f805eb0b46c);
+            
+        
+
+        circle_marker_9f75945e27ce69c9fbe744e51d5b3f21.bindPopup(popup_9ec22495fd3ebec377675dd39b476987)
+        ;
+
+        
+    
+    
+            var circle_marker_2f4185617fd8605eb985165d56f4b79d = L.circleMarker(
+                [39.9288762, -75.1730298],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50.556898639058154, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_074044c64b3bb642bc23268afde77f43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb7be21c7160acc4214d9fb422850295 = $(`<div id="html_fb7be21c7160acc4214d9fb422850295" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> DISILVESTRO PLAYGROUND FRIDGE & PANTRY<br><b>Donations:</b> 639</div></div>`)[0];
+                popup_074044c64b3bb642bc23268afde77f43.setContent(html_fb7be21c7160acc4214d9fb422850295);
+            
+        
+
+        circle_marker_2f4185617fd8605eb985165d56f4b79d.bindPopup(popup_074044c64b3bb642bc23268afde77f43)
+        ;
+
+        
+    
+    
+            var circle_marker_cd10b6862e652c5ad7515388ff9fe066 = L.circleMarker(
+                [39.9194993, -75.1591811],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 41.08527716834828, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_c9f29c907cc87f2e6e495120327bf002 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_784d729b6a198250f0eea851f25f3aed = $(`<div id="html_784d729b6a198250f0eea851f25f3aed" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> MIFFLIN SQUARE PARK PANTRY<br><b>Donations:</b> 422</div></div>`)[0];
+                popup_c9f29c907cc87f2e6e495120327bf002.setContent(html_784d729b6a198250f0eea851f25f3aed);
+            
+        
+
+        circle_marker_cd10b6862e652c5ad7515388ff9fe066.bindPopup(popup_c9f29c907cc87f2e6e495120327bf002)
+        ;
+
+        
+    
+    
+            var circle_marker_051096d4bb813aa78de4013470e2ae35 = L.circleMarker(
+                [39.9316784, -75.1802706],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.73863375370596, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_f18c0a8e892131cc02d752e80cc742db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a9c722f49ee9e039eaa27b5b1ffa63f = $(`<div id="html_9a9c722f49ee9e039eaa27b5b1ffa63f" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> CLEVELAND<br><b>Donations:</b> 153</div></div>`)[0];
+                popup_f18c0a8e892131cc02d752e80cc742db.setContent(html_9a9c722f49ee9e039eaa27b5b1ffa63f);
+            
+        
+
+        circle_marker_051096d4bb813aa78de4013470e2ae35.bindPopup(popup_f18c0a8e892131cc02d752e80cc742db)
+        ;
+
+        
+    
+    
+            var circle_marker_f29e146db4f2954710c7943466efc2fd = L.circleMarker(
+                [39.9375953, -75.1811959],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.30589287593181, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_aded3acefee82e78fc7a9c89c29f4920 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c5f717db6620cdf01dc7759fa0d720a = $(`<div id="html_2c5f717db6620cdf01dc7759fa0d720a" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> POINT BREEZE<br><b>Donations:</b> 173</div></div>`)[0];
+                popup_aded3acefee82e78fc7a9c89c29f4920.setContent(html_2c5f717db6620cdf01dc7759fa0d720a);
+            
+        
+
+        circle_marker_f29e146db4f2954710c7943466efc2fd.bindPopup(popup_aded3acefee82e78fc7a9c89c29f4920)
+        ;
+
+        
+    
+    
+            var circle_marker_0cb992c3ddb21e65aba25212090b9130 = L.circleMarker(
+                [39.934939, -75.163433],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50.07993610219566, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_fba47daa7df39b3cdc76da55a5990e77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e3372815cf0913bdf3f069617d604ce = $(`<div id="html_6e3372815cf0913bdf3f069617d604ce" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> PEOPLE’S KITCHEN FRIDGE & PANTRY<br><b>Donations:</b> 627</div></div>`)[0];
+                popup_fba47daa7df39b3cdc76da55a5990e77.setContent(html_6e3372815cf0913bdf3f069617d604ce);
+            
+        
+
+        circle_marker_0cb992c3ddb21e65aba25212090b9130.bindPopup(popup_fba47daa7df39b3cdc76da55a5990e77)
+        ;
+
+        
+    
+    
+            var circle_marker_9c95b7406eb6882b30f6261a78a00af9 = L.circleMarker(
+                [39.9392245, -75.1830078],
+                {"bubblingMouseEvents": true, "color": "#e377c2", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e377c2", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 37.04051835490427, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_a363ba6b6fea148873eeb2e1d4e76faa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a413769338db391bb69c91a57d5e5e21 = $(`<div id="html_a413769338db391bb69c91a57d5e5e21" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> PORCO’S PHILLY PANTRY<br><b>Donations:</b> 343</div></div>`)[0];
+                popup_a363ba6b6fea148873eeb2e1d4e76faa.setContent(html_a413769338db391bb69c91a57d5e5e21);
+            
+        
+
+        circle_marker_9c95b7406eb6882b30f6261a78a00af9.bindPopup(popup_a363ba6b6fea148873eeb2e1d4e76faa)
+        ;
+
+        
+    
+    
+            var circle_marker_29d4dabc520252e0094f36c40ddf18f0 = L.circleMarker(
+                [39.9345248, -75.1898937],
+                {"bubblingMouseEvents": true, "color": "#7f7f7f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#7f7f7f", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.2602916254693, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_34f97c65792e4505905e36c0b235cc0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81f398047b3e0f8c9b37ee2b9ad688b1 = $(`<div id="html_81f398047b3e0f8c9b37ee2b9ad688b1" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> GROWING TOGETHER GARDEN PANTRY<br><b>Donations:</b> 113</div></div>`)[0];
+                popup_34f97c65792e4505905e36c0b235cc0f.setContent(html_81f398047b3e0f8c9b37ee2b9ad688b1);
+            
+        
+
+        circle_marker_29d4dabc520252e0094f36c40ddf18f0.bindPopup(popup_34f97c65792e4505905e36c0b235cc0f)
+        ;
+
+        
+    
+    
+            var circle_marker_ce37ce02ed5507ce430f64ddd4fc1272 = L.circleMarker(
+                [39.9378609, -75.1775544],
+                {"bubblingMouseEvents": true, "color": "#bcbd22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bcbd22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.392304845413264, "stroke": true, "weight": 3}
+            ).addTo(map_b795c278b25247c5627baae2ae1e1965);
+        
+    
+        var popup_b8cdc64dd7bcfc81f9921bdbf6d7e62a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a78b15bb86d04462b225d582951d0947 = $(`<div id="html_a78b15bb86d04462b225d582951d0947" style="width: 100.0%; height: 100.0%;"><div style="width:250px; height:40px;"><b>Dropoff Location:</b> LUHV FRIDGE<br><b>Donations:</b> 27</div></div>`)[0];
+                popup_b8cdc64dd7bcfc81f9921bdbf6d7e62a.setContent(html_a78b15bb86d04462b225d582951d0947);
+            
+        
+
+        circle_marker_ce37ce02ed5507ce430f64ddd4fc1272.bindPopup(popup_b8cdc64dd7bcfc81f9921bdbf6d7e62a)
+        ;
+
+        
+    
+</script>
+</html>
