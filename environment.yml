@@ -8,3 +8,4 @@ dependencies:
 - plotly
 - jupyterlab>=3.1
 - voila>=0.5.6
+- folium
