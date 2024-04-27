@@ -1,13 +1,13 @@
 # project-3-blue-team
 
-Our project analyzes data on food donation from [South Philadelphia Community Fridge](https://www.southphillyfridge.com). South Philadelphia Community Fridge is an all-volunteer mutual aid organization in the South Philadelphia neighborhood that provides 24/7 no-questions-asked food aid through a network of free fridges and pantries. 
+## Our Project and Purpose
+Our project analyzes data on food donation from [South Philadelphia Community Fridge](https://www.southphillyfridge.com). South Philadelphia Community Fridge (SPCF) is an all-volunteer mutual aid organization in the South Philadelphia neighborhood that provides 24/7 no-questions-asked food aid through a network of free fridges and pantries. The visualizations and analysis produced by our project will be used by SPCF in grant applications and conversations with funders to depict the scope and scale of the organization's work. 
 
-In order to meet the requirements of this project, our repository contains two versions of our code. The first, fridge_fills.ipynb, shows how we used PyMongo to extract data from MongoDB and converted it to a csv file in the notebook
-
+## How to Use Our Project
 Our Jupyter Notebook contains interactive graphics that can only be viewed on Binder. Use the button to view the notebook on Binder.
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vjayne93/project-3-blue-team/HEAD?labpath=fridge_fills_draft.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vjayne93/project-3-blue-team/HEAD?labpath=fridge_fills_binder.ipynb)
 
-To meet the requirements of the project, we have developed two versions of our Jupyter Notebook. Version 1 reads a .JSON file which was created by uploading a CSV of raw data to MongoDB, and exporting the data as a .JSON file. This Jupyter Notebook can be viewed on Binder. Version 2 connects directly to a locally hosted MongoDB database to access the data.  
+In order to meet the requirements of this project, our repository contains two versions of our code. The first, fridge_fills.ipynb, shows how we used PyMongo to extract data from MongoDB and converted the database into CSV files within the notebook. The second version of our code, fridge_fills_binder.ipynb, analyzes data directly from the CSV files. This second version of our code can be deployed in [Binder](https://mybinder.org/v2/gh/vjayne93/project-3-blue-team/HEAD?labpath=fridge_fills_binder.ipynb) so the end user can use the dynamic widgets and visualizations.  
 
 ![LUHV_FILL](https://github.com/vjayne93/project-3-blue-team/assets/152992214/faa4be10-6c31-4147-a5cd-9e6e1b88a756)
 
@@ -23,3 +23,12 @@ The five types of "fridge fills" tracked in the dataset are Rescued Groceries, P
 <b>Food Drive</b> donations come from schools, workplaces, religious organizations, events, and other groups that collect food to donate. <br>
 
 ![IMG_7905_Original](https://github.com/vjayne93/project-3-blue-team/assets/152992214/21d9122c-c59b-4cf8-9557-1b54dd5e4d0c)
+
+## Ethical Considerations
+Our data was obtained directly from volunteers at SPCF with their permission. SPCF does not obtain identifying information about anyone who receives food from their fridges and pantries to reduce stigma and protect privacy. Our dataset includes the chosen names of volunteers who picked up and delivered food to community fridge and pantry locations. We did not include names of volunteers in our final analysis or visualizations, as comparing the activity of different volunteers or specifiying particular volunteers as the most productive is not in line with the spirit of mutual aid, and is not relevant to our project's purpose. 
+
+## Data References
+Our dataset was collected by volunteers at SPCF, with significant contributions from volunteers Ginny Robinson, Rose MW, and Kathryn Nolan. 
+
+## Code References
+We received guidance from the [mybinder.org-user-guide repository.](https://github.com/jupyterhub/mybinder.org-user-guide) We used guidance from the EdX XPert Learning Assistant AI in the development of our code. 
