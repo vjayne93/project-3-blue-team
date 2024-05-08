@@ -32,3 +32,27 @@ Our dataset was collected by volunteers at SPCF, with significant contributions 
 
 ## Code References
 We received guidance from the [mybinder.org-user-guide repository.](https://github.com/jupyterhub/mybinder.org-user-guide) We used guidance from the EdX XPert Learning Assistant AI in the development of our code. 
+
+## Contributions:
+ 
+Fara Naghavi: 
+Question(s): Which community fridge location received the most donations? Did this change based on the time of year?
+Graph(s): Choropleth map (South Philadelphia Community Fridge)
+          Donations Received per Month in 2023
+
+Jessica Chellappa:
+Question(s): In what month were there the most food donations? In what month were there the least food donations? 
+Graph(s): Donations by Dropoff Location
+
+Victoria Martin-Nelson:
+Question(s): Which type of fill is most prevalent? Does this change month by month?
+Graph(s): Total Days in Operation 
+          Total Number of Dropoffs
+          Average Donations all Days in Operation 
+          Average Donations per Day for Each Location 
+          Total Fills per Month for Each Fill Type in 2023
+
+Mia Hursh: 
+Question(s): Which time of day are there the most food donations? Does this vary by month?
+Graph(s): Donations by Time of Day across Months in 2023
+          Donations by month
