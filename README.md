@@ -1,4 +1,4 @@
-# project-3-blue-team
+# South Philadelphia Community Fridge 2023 Data Analysis
 
 ## Our Project and Purpose
 Our project analyzes data on food donation from [South Philadelphia Community Fridge](https://www.southphillyfridge.com). South Philadelphia Community Fridge (SPCF) is an all-volunteer mutual aid organization in the South Philadelphia neighborhood that provides 24/7 no-questions-asked food aid through a network of free fridges and pantries. The visualizations and analysis produced by our project will be used by SPCF in grant applications and conversations with funders to depict the scope and scale of the organization's work. 
